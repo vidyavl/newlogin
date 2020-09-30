@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form validation  using javascript</title>
+<link rel="stylesheet" href="valid.css">
+</head>
+<body>
+<div class="wrapper">
+<h2>Log In</h2>
+
+<form id="myform" onsubmit="return validate();">
+
+<div class="input_field">
+<input type="text" placeholder="Enter Name" id="name" autocomplete="off">
+<span id="error">
+</div>
+
+<div class="input_field">
+<input type="text" placeholder="Mobile Number" id="mob" autocomplete="off">
+<span id="number"></span>
+</div>
+<div class="input_field">
+<input type="text" Placeholder="Email-id" id="email" autocomplete="off">
+<span id="eid"></span>
+</div>
+
+<div class="input_field">
+<input type="text" placeholder="Password" id="pass" autocomplete="off">
+<span id="pass1"></span>
+</div>
+
+<div class="input_field">
+<input type="text" placeholder="Confirm-Password" id="conpass" autocomplete="off">
+<span id="pass2"></span>
+</div>
+
+<div class="btn">
+<input type="submit" id="btn-btn">
+</div>
+</form>
+</div>
+<script type="text/javascript" src="valid.js">
+
+
+</script>
+</body>
+</html>
